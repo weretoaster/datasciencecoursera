@@ -15,9 +15,9 @@ Please also read the CODEBOOK.txt file associated with this function for informa
 A full description of the source data set is available at the site where the data was obtained: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 ###Reading the tidydata.txt data set
-The resulting tidydata.txt file contains a tidy data set with 180 observations of 81 variables. Information about the data in tidydata.txt can be found the CODEBOOK.txt file associated with the run_analysis function.
+The tidydata.txt file created by run_analysis.R contains a tidy data set with 180 observations of 81 variables. Information about the data in tidydata.txt can be found the CODEBOOK.txt file associated with this function.
 
-**The tidydata.txt file should be read into R as a data frame or data table, as the raw text file lacks the formatting to make it intelligible. The tidydata.txt file can be read into R using: read.table("tidydata.txt", header = TRUE)**
+**NOTE: The tidydata.txt file should be read into R as a data frame or data table, as the raw text file lacks the formatting to make it intelligible.** The tidydata.txt file can be read into R using: read.table("tidydata.txt", header = TRUE)
 
 ###Using the run_analysis() function
 The run_analysis.R function assumes that the source data set files have already been downloaded and extracted from:
