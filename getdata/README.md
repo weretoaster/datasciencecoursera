@@ -10,12 +10,14 @@ Coursera 'Getting and Cleaning Data Course Project' submitted by weretoaster
 ###About run_analysis.R
 This function was developed to meet the requirements of the Coursera 'Getting and Cleaning Data Course Project'. The run_analysis.R function takes data collected from Samsung Galaxy S smartphone accelerometers and creates a tidydata.txt file, which combines and summarises the data.
 
-Please also read the CodeBook.txt file associated with this function for information about the variables in run_analysis.R and tidydata.txt.
+Please also read the CODEBOOK.txt file associated with this function for information about the variables in run_analysis.R and tidydata.txt.
 
 A full description of the source data set is available at the site where the data was obtained: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 ###Reading the tidydata.txt data set
-The tidydata.txt file needs to be viewed as a data frame or data table in order to be intelligible. The tidydata.txt file can be read into R using: read.table("tidydata.txt", header = TRUE)
+The resulting tidydata.txt file contains a tidy data set with 180 observations of 81 variables. Information about the data in tidydata.txt can be found the CODEBOOK.txt file associated with the run_analysis function.
+
+**The tidydata.txt file should be read into R as a data frame or data table, as the raw text file lacks the formatting to make it intelligible. The tidydata.txt file can be read into R using: read.table("tidydata.txt", header = TRUE)**
 
 ###Using the run_analysis() function
 The run_analysis.R function assumes that the source data set files have already been downloaded and extracted from:
