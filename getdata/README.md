@@ -56,4 +56,4 @@ The run_analysis.R function uses the dplyr package to create a new data set whic
     
 ####Write data. Creates a new text file "tidydata.txt".
                                      
-Finally, the function creates a new text file called tidydata.txt, in the same folder as the original data.
+Finally, the function creates a new text file called tidydata.txt, in the same folder as the original data. The tidydata.txt file should be read into R as a data frame or data table, as the raw text file lacks the formatting to make it intelligible. The tidydata.txt file can be read into R using: read.table("tidydata.txt", header = TRUE)
