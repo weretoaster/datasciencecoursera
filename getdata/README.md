@@ -14,6 +14,9 @@ Please also read the CodeBook.txt file associated with this function for informa
 
 A full description of the source data set is available at the site where the data was obtained: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
+###Reading the tidydata.txt data set
+The tidydata.txt file needs to be viewed as a data frame or data table in order to be intelligible. The tidydata.txt file can be read into R using: read.table(file_path, header = TRUE)
+
 ###Using the run_analysis() function
 The run_analysis.R function assumes that the source data set files have already been downloaded and extracted from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
